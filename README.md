@@ -8,7 +8,11 @@
 - Detect hazardous gas leakage in industrial and domestic environments  
 - Automatically disconnect power or gas supply to prevent accidents  
 - Display gas level and system status in real time  
-- Improve safety through automated control and monitoring  
+- Improve safety through automated control and monitoring
+
+## Circuit
+<img width="1383" height="509" alt="Screenshot 2026-03-01 103739" src="https://github.com/user-attachments/assets/8028cd4b-16bc-44cc-8249-d68bf0a0c105" />
+
 
 ## Components Used
 - Arduino UNO  
@@ -23,6 +27,10 @@ The gas sensor output is continuously read by the Arduino through an analog inpu
 The current time is obtained from the DS3231 RTC and displayed on the LCD along with the gas level.  
 When the gas concentration remains below the threshold, the system operates in a safe state.  
 If the gas level exceeds the predefined threshold, the relay is triggered to disconnect the load and a warning indication is activated.
+
+## Output
+<img width="1376" height="783" alt="Screenshot 2026-03-01 103802" src="https://github.com/user-attachments/assets/5e67635f-a4a8-4c6f-ba1d-e301d09e02b1" />
+
 
 ## Simulation
 The project is simulated using Proteus Design Suite.  
